@@ -1,1 +1,104 @@
 /* Add CSS styling here */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'East Sea Dokdo', cursive;
+    color: rgb(44, 27, 9);
+}
+h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+    transform: rotate(-10deg);
+}
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+}
+nav div {
+    display: inline-block;
+}
+nav div a {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 120px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: hotpink;
+    font-size: 27px;
+    transition: .4s;
+}
+nav div a:hover {
+    color: white;
+}
+.big-image-sec {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 150px;
+    width: 1000px;
+    height: 400px;
+    box-sizing: border-box;
+    background-image: url(https://picsum.photos/200);
+}
+.my-name {
+    color: hotpink;
+    font-size: 70px;
+    text-shadow: 1px 1px rgb(196, 196, 196);
+}
+.my-project {
+    font-size: 27px;
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: rgb(196, 196, 196);
+}
+.my-project:hover {
+    color: white;
+    transition: .4s;
+}
+.gallery-sec {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 80vh;
+    margin: 50px 70px;
+}
+.image {
+    background-image: url(https://picsum.photos/250);
+    height: 250px;
+    width: 250px;
+}
+.text {
+    color: hotpink;
+    text-shadow: 1px 1px rgb(44, 27, 9);
+    font-size: 37px;
+    text-align: center;
+    padding-top: 100px;
+}
+.footer-sec {
+    font-size: 40px;
+    text-align: center;
+    width: 1000px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-color: rgb(196, 196, 196);
+}
+.contact-me {
+    text-decoration: none;
+    transition: .4s;
+}
+.contact-me:hover {
+    color: hotpink;
+}
